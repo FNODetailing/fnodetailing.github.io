@@ -11,7 +11,7 @@ export default function Home() {
       <main>
         <Hero
           variant="main"
-          backgroundVideo="/assets/hero/hero.mp4" 
+          backgroundVideo="/assets/src/assets/hero/hero.mp4" 
           headline="PREMIUM MOBILE AUTO DETAILING"
           subheadline="We revive your ride today."
           primaryCta={{ label: "Explore Our Services", scrollTo: "services" }}
