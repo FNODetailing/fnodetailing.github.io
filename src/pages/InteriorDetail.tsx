@@ -15,7 +15,7 @@ export default function InteriorDetail() {
       <main className="min-h-screen bg-black text-white">
         <Hero
           variant="service"
-          backgroundImage="../assets/hero/interior-detail.jpg"
+          backgroundImage="./assets/src/assets/hero/interior-detail.jpg"
           headline="Interior Detail"
           subheadline="A deep interior reset focused on removing dust, stains, and buildup—leaving your cabin crisp, clean, and comfortable."
         />

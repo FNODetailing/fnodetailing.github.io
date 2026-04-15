@@ -15,7 +15,7 @@ export default function CeramicCoat() {
       <main className="min-h-screen bg-black text-white">
         <Hero
           variant="service"
-          backgroundImage="../assets/hero/ceramic-coat.jpg"
+          backgroundImage="./assets/src/assets/hero/ceramic-coat.jpg"
           headline="Ceramic Coat"
           subheadline="Long-term protection with insane gloss and easy maintenance. A proper coating package includes prep + paint correction so the coating bonds correctly and looks its best."
         />

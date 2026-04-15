@@ -2,10 +2,10 @@ import { motion, useReducedMotion } from "framer-motion";
 import { Link } from "react-router-dom";
 
 const services = [
-    { key: "exterior", title: "EXTERIOR DETAIL", image: "../assets/services/exterior-detail.jpg", href: "/services/exterior-detail" },
-    { key: "interior", title: "INTERIOR DETAIL", image: "./assets/services/interior-detail.jpg", href: "/services/interior-detail" },
-    { key: "full", title: "FULL DETAIL", image: "/assets/services/full-detail.jpg", href: "/services/full-detail" },
-    { key: "ceramic", title: "CERAMIC COAT", image: "assets/services/ceramic-coat.jpg", href: "/services/ceramic-coat" },
+    { key: "exterior", title: "EXTERIOR DETAIL", image: "./assets/src/assets/services/exterior-detail.jpg", href: "/services/exterior-detail" },
+    { key: "interior", title: "INTERIOR DETAIL", image: "./assets/src/assets/services/interior-detail.jpg", href: "/services/interior-detail" },
+    { key: "full", title: "FULL DETAIL", image: "./assets/src/assets/services/full-detail.jpg", href: "/services/full-detail" },
+    { key: "ceramic", title: "CERAMIC COAT", image: "./assets/src/assets/services/ceramic-coat.jpg", href: "/services/ceramic-coat" },
 ] as const;
 
 export default function Services() {
