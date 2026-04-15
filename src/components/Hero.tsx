@@ -11,9 +11,9 @@ type Cta = { label: string; href?: string; scrollTo?: string };
 type HeroVariant = "main" | "service";
 
 type HeroProps = {
-  backgroundImage?: string;            // now optional (for video-only heroes)
-  backgroundVideo?: string;            // NEW: mp4/webm URL
-  backgroundVideoPoster?: string;      // NEW: poster image for loading / fallback
+  backgroundImage?: string;
+  backgroundVideo?: string;
+  backgroundVideoPoster?: string;  
 
   headline: string;
   subheadline?: string;
