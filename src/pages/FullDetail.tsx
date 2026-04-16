@@ -25,7 +25,7 @@ export default function FullDetail() {
             <main className="min-h-screen bg-black text-white">
                 <Hero
                     variant="service"
-                    backgroundImage="./assets/src/assets/hero/full-detail.jpg"
+                    backgroundImage="../assets/src/assets/hero/full-detail.jpg"
                     headline="Full Detail"
                     subheadline="A thorough exterior refresh that restores gloss, removes contamination, and protects your paint. Perfect for maintenance, resale, or getting your car back to “wow.”"
                 />
