@@ -100,7 +100,7 @@ export default function Footer() {
                 <div className="mt-10 border-t border-white/10 pt-6 text-center text-xs text-white/50">
                     <div>© {year} {BRAND.name}. All rights reserved.</div>
 
-                    <div className="mt-2">Made with <span className="text-red-500">♥</span> by
+                    <div className="mt-2">Made with <span className="text-red-500">♥</span> by 
                         <a
                             href="https://github.com/meowphetamine"
                             target="_blank"

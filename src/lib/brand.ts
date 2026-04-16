@@ -1,7 +1,7 @@
 export const BRAND = {
   name: "FNO Detailing",
   phone: "(425) 777-1761",
-  email: "EMAIL",
+  email: "fnodetailing@yahoo.com",
   location: "Kent, WA",
   bookingUrl: "https://book.squareup.com/appointments/kvgxlond03s9ui/location/L3A45N1V253YD/services",
   instagram: "https://www.instagram.com/fno.detailing/",
