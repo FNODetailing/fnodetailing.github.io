@@ -13,7 +13,7 @@ export default function CeramicCoat() {
   return (
     <>
       <Helmet>
-        <title>Ceramic Coating in Kent, WA | Turn 4 Detail</title>
+        <title>Ceramic Coating in Kent, WA | FNODetailing</title>
         <meta
           name="description"
           content="Ceramic coating in Kent, WA with prep wash, decontamination, paint correction, panel wipe, and long-term paint protection."

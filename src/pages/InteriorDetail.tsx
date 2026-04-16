@@ -13,7 +13,7 @@ export default function InteriorDetail() {
   return (
     <>
       <Helmet>
-        <title>Interior Detail in Kent, WA | Turn 4 Detail</title>
+        <title>Interior Detail in Kent, WA | FNODetailing</title>
         <meta
           name="description"
           content="Interior auto detailing in Kent, WA with vacuuming, surface cleaning, interior glass cleaning, light stain treatment, and deodorizing."

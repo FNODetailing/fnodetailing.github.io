@@ -13,7 +13,7 @@ export default function ExteriorDetail() {
   return (
     <>
       <Helmet>
-        <title>Exterior Detail in Kent, WA | Turn 4 Detail</title>
+        <title>Exterior Detail in Kent, WA | FNODetailing</title>
         <meta
           name="description"
           content="Exterior auto detailing in Kent, WA with hand wash, decontamination, clay treatment, glass cleaning, and paint protection."

@@ -13,7 +13,7 @@ export default function FullDetail() {
     return (
         <>
             <Helmet>
-                <title>Full Detail in Kent, WA | Turn 4 Detail</title>
+                <title>Full Detail in Kent, WA | FNODetailing</title>
                 <meta
                     name="description"
                     content="Full auto detailing in Kent, WA combining exterior protection and interior deep cleaning for a complete vehicle reset."
