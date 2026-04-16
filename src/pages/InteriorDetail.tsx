@@ -5,12 +5,22 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Content from "../components/Content";
 import { Link } from "react-router-dom";
+import { Helmet } from "@dr.pogodin/react-helmet";
 
 export default function InteriorDetail() {
   const prefersReducedMotion = useReducedMotion();
 
   return (
     <>
+      <Helmet>
+        <title>Interior Detail in Kent, WA | Turn 4 Detail</title>
+        <meta
+          name="description"
+          content="Interior auto detailing in Kent, WA with vacuuming, surface cleaning, interior glass cleaning, light stain treatment, and deodorizing."
+        />
+        <link rel="canonical" href="https://fnodetailing.github.io/services/interior-detail" />
+      </Helmet>
+
       <Header />
       <main className="min-h-screen bg-black text-white">
         <Hero

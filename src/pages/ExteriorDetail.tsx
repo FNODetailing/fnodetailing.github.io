@@ -5,12 +5,22 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Content from "../components/Content";
 import { Link } from "react-router-dom";
+import { Helmet } from "@dr.pogodin/react-helmet";
 
 export default function ExteriorDetail() {
   const prefersReducedMotion = useReducedMotion();
 
   return (
     <>
+      <Helmet>
+        <title>Exterior Detail in Kent, WA | Turn 4 Detail</title>
+        <meta
+          name="description"
+          content="Exterior auto detailing in Kent, WA with hand wash, decontamination, clay treatment, glass cleaning, and paint protection."
+        />
+        <link rel="canonical" href="https://fnodetailing.github.io/services/exterior-detail" />
+      </Helmet>
+
       <Header />
       <main className="min-h-screen bg-black text-white">
         <Hero
@@ -32,7 +42,7 @@ export default function ExteriorDetail() {
             Back to Home
           </Link>
         </div>
-        
+
         <Content title="What’s Included">
           <div className="grid gap-10 lg:grid-cols-3">
             {/* Bullet list */}

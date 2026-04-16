@@ -5,12 +5,22 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Content from "../components/Content";
 import { Link } from "react-router-dom";
+import { Helmet } from "@dr.pogodin/react-helmet";
 
 export default function FullDetail() {
     const prefersReducedMotion = useReducedMotion();
 
     return (
         <>
+            <Helmet>
+                <title>Full Detail in Kent, WA | Turn 4 Detail</title>
+                <meta
+                    name="description"
+                    content="Full auto detailing in Kent, WA combining exterior protection and interior deep cleaning for a complete vehicle reset."
+                />
+                <link rel="canonical" href="https://fnodetailing.github.io/services/full-detail" />
+            </Helmet>
+
             <Header />
             <main className="min-h-screen bg-black text-white">
                 <Hero

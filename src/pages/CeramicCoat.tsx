@@ -5,12 +5,22 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Content from "../components/Content";
 import { Link } from "react-router-dom";
+import { Helmet } from "@dr.pogodin/react-helmet";
 
 export default function CeramicCoat() {
   const prefersReducedMotion = useReducedMotion();
 
   return (
     <>
+      <Helmet>
+        <title>Ceramic Coating in Kent, WA | Turn 4 Detail</title>
+        <meta
+          name="description"
+          content="Ceramic coating in Kent, WA with prep wash, decontamination, paint correction, panel wipe, and long-term paint protection."
+        />
+        <link rel="canonical" href="https://fnodetailing.github.io/services/ceramic-coat" />
+      </Helmet>
+
       <Header />
       <main className="min-h-screen bg-black text-white">
         <Hero
